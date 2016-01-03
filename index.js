@@ -7,7 +7,7 @@ app.get('/', function(req, res){
 });
 
 // This goes through everyone connected on the server and 
-sends out msg to them 
+// sends out msg to them 
 
 io.emit('some event', { for: 'everyone' })
 
